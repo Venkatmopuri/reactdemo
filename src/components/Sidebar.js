@@ -72,13 +72,12 @@ const Sidebar = () => {
   const itemStyle = {
     padding: '10px 15px',
     borderRadius: '8px',
-    marginBottom: '5px', // Reduced gap for non-Students items
+    marginBottom: '5px', 
     cursor: 'pointer',
     display: 'flex',
     alignItems: 'center',
     gap: '10px',
-    transition: 'all 0.3s ease',
-    
+    transition: 'all 0.3s ease', 
   };
 
   const studentItemStyle = {
@@ -86,7 +85,7 @@ const Sidebar = () => {
     background: 'linear-gradient(90deg, rgb(210, 223, 240) 0%, rgb(249, 251, 251) 45%, rgb(252, 255, 255) 100%)',
     color: 'blue',
     fontWeight: 'bold',
-    marginBottom: '10px', // Maintain original gap for Students
+    marginBottom: '10px', 
   };
 
   const lightFontColor = '#A0A0A0';

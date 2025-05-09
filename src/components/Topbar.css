@@ -1,0 +1,81 @@
+Topbar.css
+.topbar {
+    width: 100%;
+    height: 77px;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 0 10px;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    height: 38px;
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  
+  .search-container {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+    height: 40px;
+    border-radius: 26px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    margin: 0 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .search-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
+    background: transparent;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 150px;
+  }
+  
+  .user-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @media (max-width: 768px) {
+    .topbar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+    }
+  
+    .search-container {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .user-info {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+  

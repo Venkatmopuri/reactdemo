@@ -62,7 +62,7 @@ const StatePage = () => {
   });
   const [showAddModal, setShowAddModal] = useState(false);
   const [selectAll, setSelectAll] = useState(false);
-  const [selectedRows, setSelectedRows] = useState(new Array(initialData.length).fill(false)); // Updated to use initialData.length
+  const [selectedRows, setSelectedRows] = useState(new Array(initialData.length).fill(false)); 
   const itemsPerPage = 15;
 
   // Pagination
